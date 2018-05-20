@@ -9,12 +9,12 @@ def bubblesort(A):
             if(A[j] < A[j-1]):
                 swap(A,j,j-1)
                              
-A = [ 4,5,7,1,4,2,8,90,87]
+A = [ 3,8,2,5,4,9,10,1]
 
 bubblesort(A)
 print(A)
 
-Sample iteration
+"""Sample iteration
 
 3	8	2	5	4	9	10	1
 3	8	2	5	4	9	1	10
@@ -25,3 +25,4 @@ Sample iteration
 3	1	8	1	5	4	9	10
 1	3	2	1	5	4	9	10
 
+"""
