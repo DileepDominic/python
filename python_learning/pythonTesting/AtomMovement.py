@@ -39,8 +39,8 @@ class AtomMovement:
 
 
 def visualize(movement):
-    X = [ p.x for p in movement.atoms ]
-    Y = [ p.y for p in movement.atoms ]
+    X = [p.x for p in movement.atoms]
+    Y = [p.y for p in movement.atoms]
         
     fig = plt.figure()
     ax = plt.subplot(111,aspect='equal')
@@ -63,7 +63,7 @@ def visualize(movement):
         line.set_data(X,Y)
         return line, 
 
-    anim = animation.FuncAnimation(fig,animate, init_function=init, blit = True, interval = 10)
+    anim = animation.FuncAnimation(fig,animate, init_func=init, blit = True, interval = 10)
 
     plt.show()
 
