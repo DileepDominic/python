@@ -1,0 +1,15 @@
+time money health
+
+time and health :
+no money
+
+health and money:
+no time
+
+time and money :
+no health
+
+
+
+
+when time and 
